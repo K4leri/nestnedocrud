@@ -43,20 +43,17 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+
+# fill db with 10 million values
+$ npm run fill
+
+# add index to existing values
+$ npm run create-index
+
+# start testing use and visit http://localhost:8089
+$ npm run locust
 ```
 
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
 
 ## Support
 
